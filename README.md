@@ -8,20 +8,20 @@ This project uses the classic Auto MPG dataset and demonstrates how to build mod
 
 Table of Contents
 
-1. Basic regression: Predict fuel efficiency
+I. Basic regression: Predict fuel efficiency
   1) Get the data
   2) Clean the data
   3) Split the data into training and test sets
   4) Inspect the data
   5) Split features from labels
-2. Normalization
+II. Normalization
   1) The Normalization layer
-3. Linear regression
+III. Linear regression
   1) Linear regression with one variable
   2) Linear regression with multiple inputs
-4. Regression with a deep neural network
+IV. Regression with a deep neural network
   1) Regression using a DNN and a single input
   2) Regression using a DNN and multiple inputs
-5. Performance
+V. Performance
   1) Make Predictions
-6. Conclusion
+VI. Conclusion
