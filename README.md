@@ -4,29 +4,27 @@
 
 In a regression problem, the aim is to predict the output of a continous value, like a price or a probability. Contrast this with a classification problem, where the aim is to select a class from a list of classes(for example, where a picture contains an apple or an orange, recognizing which fruit is in the picture).
 
-This project uses the classic Auto MPG dataset and demonstrates how to build models to predict the fuel efficiency of the late-1970s and early 1980s automobiles. To do this, you will provide the models with a description of many automobiles from that time period. This description includes attributes like cylinders, displacement, horsepower, and weight.
+This project aims to build models to predict the fuel efficiency of the late-1970s and early 1980s automobiles. The classic Auto MPG data set was sourced from the archives of UCI.
 
 ## Table of Contents
 
-I. Basic regression: Predict fuel efficiency
-  1. Get the data
+I. Linear regression
+  1. Import the data
   2. Clean the data
-  3. Split the data into training and test sets
-  4. Inspect the data
+  3. Separate the data: training and test sets
+  4. Data in graphs
   5. Split features from labels
   
 II. Normalization
-  1. The Normalization layer
-  
-III. Linear regression
   1. Linear regression with one variable
   2. Linear regression with multiple inputs
+  3. Regression using a DNN and a single input
+  4. Regression using a DNN and multiple inputs
   
-IV. Regression with a deep neural network
-  1. Regression using a DNN and a single input
-  2. Regression using a DNN and multiple inputs
-  
-V. Performance
+III. Performance
   1. Make Predictions
+  2. Error distribution
+  3. Saving the model
+  4. Rerunning the model
   
-VI. Conclusion
+IV. Conclusion
